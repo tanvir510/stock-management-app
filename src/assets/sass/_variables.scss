@@ -1,0 +1,20 @@
+//== Color Variables
+$primary: #90bd06;
+$secondary: #2f4e4e;
+$tertiary: #4f877d;
+$bg-gray: #f9f9f9;
+$black: #000;
+$white: #fff;
+$green: #aaa75d;
+$gray: #393939;
+$lite-gray: #555555;
+$lite: #f9f9f9;
+$border: #b5b5b5;
+$shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+$transition: all 0.4s ease-in-out;
+
+//== Typography
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+//== Font Family
+$roboto: 'Roboto', sans-serif;

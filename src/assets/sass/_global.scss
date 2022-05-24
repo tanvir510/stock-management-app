@@ -1,0 +1,76 @@
+body {
+  font-weight: 300;
+  font-family: $roboto;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+// Common section padding
+.section-padding {
+  padding: 100px 0px;
+}
+
+// Secondary Background Color
+.secondary-bg {
+  background: $secondary;
+}
+
+// Shop Background
+.bg-white {
+  background: $white;
+}
+.bg-gray {
+  background: $gray;
+}
+// White color
+.white {
+  color: $white;
+}
+
+// Black color
+.black {
+  color: $black;
+}
+
+// Gray color
+.gray {
+  color: $gray;
+}
+
+// Invalid feedback
+.invalid-feedback {
+  color: $white;
+  &.red {
+    color: #dc3545;
+  }
+}
+
+// Reset css
+a {
+  outline: none !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+  }
+}
+
+.btn {
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.user-list {
+  width: 100%;
+}
+
+.add-stock {
+  max-width: 70%;
+  margin: 0 auto;
+}

@@ -1,0 +1,78 @@
+.button {
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	height: 40px;
+	min-width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $secondary;
+	background: transparent;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	background: $primary;
+	cursor: pointer;
+	transition: $transition;
+	position: relative;
+	&.primary {
+		background: $primary;
+		color: $white;
+	}
+	&.secondary {
+		background: $secondary;
+		color: $white;
+	}
+	&.tertiary {
+		background: $tertiary;
+		color: $white;
+	}
+	&.yes-btn {
+		background: $secondary;
+		color: $white;
+	}
+	&.checked {
+		background: $secondary !important;
+		color: $white !important;
+	}
+	&.outlined {
+		background: transparent;
+		color: $secondary;
+		border: 1px solid $secondary;
+	}
+
+	&.next-btn {
+		min-width: 140px;
+		color: $white;
+		display: flex;
+		justify-content: center;
+		padding: 0px 10px;
+		align-items: center;
+
+		> svg {
+			font-size: 20px;
+			margin-left: 10px;
+		}
+	}
+	&.radio-box {
+		height: 60px;
+		min-width: 170px;
+		color: $secondary;
+		background: transparent;
+		border: 1px solid $secondary;
+	}
+
+	// &:focus {
+	// 	outline: none;
+	// 	border: none;
+	// 	box-shadow: none;
+	// }
+
+	&:disabled {
+		background-color: #d4d4d4;
+		border-color: #d4d4d4;
+		color: #2f4e4e;
+		cursor: not-allowed;
+	}
+}
